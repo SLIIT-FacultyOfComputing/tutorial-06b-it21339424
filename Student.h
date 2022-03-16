@@ -8,7 +8,7 @@ private:
   // public section
 public:
   //    assignDetails() method declaration
-  void assignDetails(int Id , char Sname[]);
+  void assignDetails(int Id , char Sname[] );
   //    display() method declaration
   void display();
 };
