@@ -9,11 +9,24 @@ void Box::setLength(int l)
 {
   length = l;
 }
-void Box::setHeigth(int h)
+void Box::setHeight(int h)
 {
-  heigth = h;
+  height = h;
 }
+int Box::getLength()
+{
+  return length;
+}
+int Box::getWidth()
+{
+  return width;
+}
+int Box::getHeight()
+{
+  return height;
+}
+
 // Implemenet the calcVolume() unction
-int Box::calcVolume() {
-  volume = w * l * h ;
+int Box::calcVolume(int l, int w, int h) {
+  return w * l * h ;
 }
