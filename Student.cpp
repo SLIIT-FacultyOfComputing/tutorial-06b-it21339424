@@ -7,7 +7,7 @@ using namespace std;
 // Assign studentId and name
 void Student::assignDetails(int Id, char Sname[]) {
   studentId = Id;
-  strcpy(name,Sname);
+  strcpy( name, Sname );
 }
 
 // Display StudentId and Name
